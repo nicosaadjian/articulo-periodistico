@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*esto SIEMPRE AÑADIRLO*/
+}
+
+body {
+    background-color: #fafafa;
+}
+
+main {
+    font-size: 18px;
+    
+}
+
+article section h1 {
+    text-align: center;
+}
+
+.color_de_texto {
+    color: #24292e;
+}
+
+
+
+/* los comentarios van asi, como en JS*/
+
+
+
+nav {
+    background-color: #fafafa ;
+    display: block;
+    height: 50px;
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 450px;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: left;
+    width: 150px;
+    text-align: center;
+    /*border-right: 1px solid black;*/
+    
+    
+}
+
+nav ul li a {
+    display: block;
+    border-radius: 50px;
+    line-height: 50px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color:purple;
+    
+}
+
+nav ul li a:hover {
+    color: black;
+    background-color: lightgray;
+}
+
+/*You can even create custom bullets for <li> elements
+ with the list-style-image property (see MDN for 
+ details).*/
+
+ a {
+     text-decoration: none;
+     color:#173CD0;
+     /*font-weight: bold;*/
+ }
+
+/*HEADERS*/
+/*IMPORTACION DE FUENTES GOOGLE FONTS. TENGO QUE HACER COINCIDIR CON LOS PARÁMETROS QUE ME PIDE QUE LE PONGA, SINO NO FUNCA.*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Roboto:wght@300&display=swap');
+
+h1 {
+    font-size: 2.25em;
+    font-family: 'Alegreya', serif;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.4em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/*PARRAFOS*/
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article section p {
+    margin-bottom: 10px;
+}
+
+.nombre_diario {
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fecha {
+    margin-bottom: 30px;
+    color: #808080;
+    font-size: 0.75em;
+}
+
+.comerciales {
+    margin-top: 45px;
+    border: 0.5px solid #808080 80% 0.3;
+}
+
+.copyright {
+    text-align: center;
+}
